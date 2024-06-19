@@ -4,76 +4,76 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
     {
         id:1,
-        title: "Air Force",
+        title: "Motus",
         price: 119,
         colors: [
             {
                 code: "black",
-                img: "./img/air.png",
+                img: "./img/Motus.webp",
             },
             {
-                code: "darkblue",
-                img: "./img/air2.png",
+                code: "white",
+                img: "./img/Motus 1.webp",
             },
         ],
     },
     {
         id: 2,
-        title: "Air Jordan",
+        title: "Motion",
         price: 145,
         colors: [
           {
-            code: "lightgray",
-            img: "./img/jordan.png",
+            code: "orange",
+            img: "./img/Motion 2.webp",
           },
           {
-            code: "green",
-            img: "./img/jordan2.png",
+            code: "white",
+            img: "./img/Motion.webp",
           },
         ],
     },
     {
         id: 3,
-        title: "Blazer",
+        title: "Primus",
         price: 135,
         colors: [
           {
-            code: "lightgray",
-            img: "./img/blazer.png",
+            code: "black",
+            img: "./img/Primus Lite.webp",
           },
           {
-            code: "green",
-            img: "./img/blazer2.png",
+            code: "dark blue",
+            img: "./img/Primus Lite 1.webp",
           },
         ],
     },
     {
         id: 4,
-        title: "Crater",
+        title: "Hydra",
         price: 109,
         colors: [
           {
-            code: "black",
-            img: "./img/crater.png",
+            code: "neon",
+            img: "./img/Hydra 2.webp",
           },
           {
-            code: "lightgray",
-            img: "./img/crater2.png",
+            code: "black",
+            img: "./img/Hydra.webp",
           },
         ],
     },
     {
         id: 5,
-        title: "Hippie",
+        title: "Asana",
         price: 124,
         colors: [
           {
-            code: "gray",
-            img: "./img/hippie.png",
+            code: "white",
+            img: "./img/Asana.webp",
           },
           {
-            code: "black",
-            img: "./img/hippie2.png",
+            code: "burgundy",
+            img: "./img/Asana 1.webp",
           },
         ],
     }, 

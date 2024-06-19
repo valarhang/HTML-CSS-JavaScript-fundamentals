@@ -57,7 +57,7 @@ nav {
 }
 
 .slider {
-    background: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background: url(https://cdn.pixabay.com/photo/2015/09/04/21/29/yosemite-922757_1280.jpg);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 87%);
     overflow: hidden;
     background-size: cover;
@@ -132,23 +132,23 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderBg {
-    background-color: aqua;
+    background-color: rgba(0, 174, 255, 0.539);
 }
 
 .sliderItem:nth-child(2) .sliderBg {
-    background-color: rgb(225, 0, 255);
+    background-color: rgba(132, 0, 255, 0.539);
 }
 
 .sliderItem:nth-child(3) .sliderBg {
-    background-color: rgb(208, 255, 0);
+    background-color: rgba(0, 174, 255, 0.539);
 }
 
 .sliderItem:nth-child(4) .sliderBg {
-    background-color: rgb(47, 0, 255);
+    background-color: rgba(0, 174, 255, 0.539);
 }
 
 .sliderItem:nth-child(5) .sliderBg {
-    background-color: rgb(255, 149, 0);
+    background-color: rgba(0, 174, 255, 0.539);
 }
 
 .features {
