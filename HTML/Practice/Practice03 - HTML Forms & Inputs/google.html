@@ -1,0 +1,34 @@
+<!-- Explicație structura proiect:
+<body>: Secțiunea principală a documentului care conține conținutul vizibil al paginii.
+<form>: Este un element de formular în care utilizatorul poate introduce date. Atributul action="https://www.google.com/search" indică că atunci când este trimis, formularul va duce la o căutare pe Google. Atributul method="get" indică faptul că datele formularului vor fi trimise prin cerere GET.
+<fieldset>: Gruparea elementelor legate de căutare. Acesta poate conține o legendă (<legend>Cauta pe GOOGLE!</legend>) pentru a descrie scopul formularului.
+<input type="text" size="50" name="q">: Este un câmp de text în care utilizatorul poate introduce termenii de căutare. Atributul type="text" indică că este un câmp de text, size="50" indică lățimea vizuală a câmpului, iar name="q" este numele acestui câmp în cadrul cererii - de aici își da seama google ce căutăm.
+<button type="submit">Search</button>: Un buton de tip submit care va trimite datele formularului către Google atunci când este apăsat.
+
+În ansamblu, acest cod reprezintă un simplu formular de căutare care va redirecționa utilizatorul către rezultatele căutării pe Google atunci când introduce un termen și apasă butonul "Search". -->
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercitii formulare</title>
+    </head>
+
+    <body>
+        <main>
+            <br>
+            <form action="https://www.google.com/search" method="get">
+                <fieldset>
+                    <legend>Cauta pe GOOGLE!</legend>
+                    <input type="text" size="50" name="q">
+                    <button type="submit">Search</button>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+    
+</html>

@@ -1,0 +1,42 @@
+Stiluri generale
+
+Setează fontul global pentru întregul document la Arial sau o altă familie de fonturi sans-serif.
+Elimină marginile și padding-ul implicite ale elementului <body> pentru a evita spațiile inutile.
+
+
+Stiluri pentru header
+
+Stabilește culoarea de fundal, culoarea textului și adaugă puțin spațiu de padding pentru elementul <header>.
+Definește margin-left pentru elementul <h1> din <header> ca fiind 0 pentru a elimina spațiul suplimentar.
+Stiluri pentru meniul de navigare (<nav> și <ul>)
+
+Elimină stilurile implicite ale listei (list-style: none;) și spațiile suplimentare (padding: 0;).
+Setează lista de link-uri (<a>) din meniu să nu aibă subliniere (text-decoration: none;) și să aibă culoarea textului alb.
+
+
+Stiluri pentru conținutul principal (<main> și .articol)
+
+Se aplică un padding general pentru elementul <main>.
+Stabilește ca fiecare element copil direct al <main> să aibă lățimea de 70% din spațiul disponibil și să fie afișat ca bloc inline.
+Stabilește un padding și margin pentru fiecare element cu clasa .articol.
+Aplică o stilizare specială pentru prima literă din primul paragraf (<p>) care urmează după un titlu (<h2>) în .articol.
+
+
+Stiluri pentru articole secundare
+
+Adaugă un border-top între fiecare .articol care urmează după un alt .articol.
+Definește culoarea și margin-top pentru fiecare titlu <h2> din .articol.
+Aplică stiluri speciale pentru prima linie a paragrafului (<p>) din .articol-urile care urmează după un alt .articol.
+
+
+Stiluri pentru sidebar
+
+Plasează .sidebar pe dreapta paginii, îi fixează o lățime și stabilește un background color și padding.
+Elimină padding-ul din <ul> care urmează unui <h3> în .sidebar.
+Elimină stilurile implicite ale listei din .sidebar ul și setează link-urile vizitate să aibă culoarea gri (gray).
+
+
+Stiluri pentru footer
+
+Ajustează textul la centru și stabilește culorile de fundal și text pentru footer.
+

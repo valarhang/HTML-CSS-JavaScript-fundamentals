@@ -1,0 +1,74 @@
+<!-- Proiectul reprezinta catalogul unei clase in care se găsesc numele elevilor, și notele acestora la anumite materii. În nota de subsol (tfoot) a tabelului găsim media clasei la fiecare materie:
+trebuie sa conțină toate elementele componente ale unui tabel (<table>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td>)
+Trebuie sa conțină descrierea tabelului în elementul <caption> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Note</title>
+    <style>
+        td, th {
+            border: 1px solid rgb(188, 188, 188);
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+
+            <caption>Catalogul clasei a V a</caption>
+            <thead>
+                <tr>
+                    <th>Elev</th>
+                    <th>Nota Matematica</th>
+                    <th>Nota Biologie</th>
+                    <th>Nota Limba Romana</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ion Ionescu</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Ana Georgescu</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Vasile Vasilescu</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Tudor Pop</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td><del>Maria Man</del></td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><strong>Media clasei</strong></td>
+                    <td>8.4</td>
+                    <td>9.4</td>
+                    <td>8.6</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(86, 86, 0);
+    color: rgb(69, 38, 0);
+    padding: 1%;
+    /* text-align: center; */
+}
+
+header li {
+    display: inline;
+}
+
+header h1 {
+    margin-left: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 4%;
+}
+
+main > div {
+    width: 70%;
+}
+
+main > * {
+    display: inline-block;  
+}
+
+.articol {
+    padding: 1%;
+    margin: 1%;
+}
+
+.articol > h2 + p::first-letter {
+    font-weight: bold;
+}
+
+[id*="secundar"]{
+    border-top: 1px dashed rgb(86, 86, 0);
+}
+
+.articol h2 {
+    margin-top: 4%;
+    color: rgb(86, 86, 0);
+}
+
+.articol ~ .articol > p::first-line {
+    text-decoration-line: underline;
+    /* text-decoration-style: dotted; */
+}
+
+.sidebar {
+    float: right;
+    width: 20%;
+    background-color: rgb(191, 191, 0);
+    padding: 2%;
+}
+
+.sidebar h3 + ul {
+    padding: 0;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar a:visited {
+    color: gray;
+}
+ 
+footer {
+    text-align: center;
+    background-color: rgb(191, 191, 0);
+    color: rgb(69, 38, 0);
+    padding: 2% 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,28 @@
+Cerința: Creați un layout de website care sa aiba design-ul adaptabil în funcție de dispozitivul pe care e afișat conform cu designul prezentat în slide-urile următoare.
+
+HINTS: Stiluri generale:
+font-family: Arial, sans-serif;: Definirea familiei de fonturi pentru textul din întreaga pagină.
+margin: 0; padding: 0;: Eliminarea marginilor și a padding-ului implicite ale elementului <body> pentru a asigura un layout consistent.
+box-sizing: border-box;: Stabilirea modelului de box-sizing ca border-box, ceea ce face ca dimensiunile elementelor să includă și border-ul și padding-ul în dimensiunea totală a elementului.
+
+Stiluri pentru header:
+background-color: #333; color: #fff;: Stabilirea culorii de fundal și a culorii textului pentru elementul <header>.
+display: flex; justify-content: space-between; align-items: center;: Utilizarea flexbox-ului pentru a alinia și a distribui uniform elementele în interiorul <header>, având spațiu egal între ele și aliniindu-le pe verticală.
+
+Stiluri pentru meniul de navigare (nav ul):
+list-style: none; display: flex;: Eliminarea stilului implicit al listei și utilizarea flexbox-ului pentru a alinia elementele într-un orizontal, în <nav>.
+
+Stiluri pentru elementele din meniul de navigare (nav ul li):
+margin-right: 15px;: Adăugarea unei mici mărimi a margin-ului drept pentru a separa elementele de navigare.
+
+HINTS: 
+Stiluri pentru zona principală (main):
+display: flex; flex-wrap: wrap; justify-content: space-between;: Configurarea layout-ului flexibil pentru a afișa elementele într-un container flexibil, distribuindu-le uniform și acceptând trecerea la un layout pe mai multe linii când este necesar.
+
+Stiluri pentru conținut (content) și bara laterală (sidebar):
+width: 65%; background-color: #f0f0f0; padding: 10px; margin-bottom: 20px;: Configurarea dimensiunii, culorii de fundal și a padding-ului pentru elementul .content și .sidebar.
+
+Stiluri pentru footer:
+text-align: center; background-color: #333; color: #fff; padding: 10px 0;: Setarea alinierii textului la centru, culorii de fundal și a culorii textului pentru elementul <footer>.
+
+

@@ -1,0 +1,52 @@
+/* Codul tau CSS aici */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+button {
+    color: white;
+    background-color: rgb(49, 49, 151);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.info {
+    background-color: goldenrod;
+}
+
+.right {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+#result-container {
+    font-weight: bold;
+}
+
+.explanation-container {
+    font-style: italic;
+    color: grey;
+}
+
+ul > li {
+    list-style: none;
+}

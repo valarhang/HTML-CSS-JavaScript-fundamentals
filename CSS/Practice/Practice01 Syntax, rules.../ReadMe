@@ -1,0 +1,31 @@
+Pentru aceasta aplicatie se va da HTML-ul iar noi trebuie să creăm fișierul de CSS + regulile aferente pentru a face pagina sa arate ca în imaginea din slide-ul anterior și sa adaugam fișierul CSS in pagina HTML folosind elementul <link>.
+
+În acest proiect trebuie atinse mai multe puncte:
+Resetare CSS default:
+se face folosind selectorul universal (*), setand proprietățile margin: 0; padding: 0; box-sizing: border-box; 
+Setarea familiei de font - font-family: Arial, sans-serif;
+line-height: 1.6; stabilește înălțimea liniilor pentru textul din body, facilitând citirea.
+Stilizarea header-ului:
+background-color: #f2f2f2; setează culoarea de fundal a elementului header la un gri deschis.
+padding: 20px; adaugă un spațiu de 20 de pixeli în interiorul header-ului, între conținut și margine.
+text-align: center; aliniază conținutul din interiorul header-ului la centru.
+Stilizarea link-urilor:
+elementelor <ul> li se vor elimina bullet points folosind list-style: none;
+elementelor <li> se va aplica display inline (display: inline);
+elementelor <a> din interiorul <li> se va elimina stilul subliniat și se va schimba culoarea implicită a textului:  text-decoration: none;    color: #333;
+
+
+Stilizarea conținutului principal (<main>)
+se va adăuga un spațiu interior de 20px prin proprietatea padding
+Stilizarea secțiunilor (<section>)
+fiecărei secțiuni se va adăuga un spațiu dedesubtul elementului de 30px prin proprietatea margin-bottom
+Stilizarea footer-ului
+text-align: center; - Centrează conținutul textului din interiorul elementului <footer>, astfel încât să fie aliniat la centru.
+padding: 10px 0; - Adaugă un spațiu de 10 pixeli sus și jos în interiorul elementului <footer>, fără niciun spațiu pe laturile stânga și dreapta.
+background-color: #333; - Setează culoarea de fundal a elementului <footer> la un ton de gri închis (#333).
+color: #fff; - Schimbă culoarea textului din interiorul elementului <footer> la alb (codul pentru culoare albă).
+position: fixed; - Definește poziția elementului <footer> ca fiind fixă pe ecran, astfel încât să rămână la partea de jos a ferestrei browserului chiar și atunci când se deruleaza pagina. - testați adaugand conținut suplimentar în pagina.
+bottom: 0; - Plasează elementul <footer> în partea de jos a ferestrei browserului.
+left: 0; - Aliniază marginea stângă a elementului <footer> la marginea stângă a ferestrei browserului.
+right: 0; - Aliniază marginea dreaptă a elementului <footer> la marginea dreaptă a ferestrei browserului.
+

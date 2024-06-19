@@ -1,0 +1,91 @@
+<!-- Explicație proiect:
+<form action="#" method="post">: action="#": Atunci când formularul este trimis, acesta va rămâne pe aceeași pagină (# reprezentând pagina curentă).
+method="post": Formularul va folosi metoda HTTP POST pentru a trimite datele. Astfel, datele nu vor fi vizibile în URL și pot fi mai sigure decât metoda GET pentru trimiterea datelor sensibile.
+<input type="text" id="fullName" name="fullName" required>: Câmp de text pentru introducerea numelui complet obligatoriu.
+<input type="email" id="email" name="email" required>: Câmp de introducere a adresei de email obligatoriu.
+<select id="examType" name="examType">...</select>: Câmp de tip drop down (list select) pentru selectarea tipului de examen. Utilizatorul poate alege una dintre opțiunile disponibile.
+<input type="date" id="birthDate" name="birthDate">: Câmp pentru introducerea datei de naștere. Este un câmp specializat pentru selectarea unei date din calendar.
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Introduceți 10 cifre">: Câmp pentru introducerea numărului de telefon. Atributul pattern impune introducerea a 10 cifre numerice.
+<textarea id="address" name="address" rows="4" cols="30"></textarea>: Câmp pentru introducerea adresei.
+<input type="submit" value="Înscrie-te">: Butonul de submit pentru trimiterea formularului. Când acest buton este apăsat, formularul este trimis către locația specificată în atributul action
+ -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <title> Exercitii</title>
+    </head>
+
+    <body>
+        <!-- <br><br><br>
+        <form action="https://google.com/search" method="get" target="_blank">
+        <fieldset>Google Search</fieldset>
+            <input type="text" name="q">
+            <input type="submit">
+            <button type="Submit">Search</button>
+
+        <br><br>
+        <hr>
+        <br><br> -->
+
+        <h1>Inscriere la examen</h1>
+
+        <br>
+
+        <form>
+            <label for="fullname">Introduceti numele complet:</label>
+            <input type="text" id="fullname" required>
+
+            <br><br>
+
+            <label for="birthday"> Birthday</label>
+            <input type="date" id="birthday">
+
+            <br><br>
+
+            <label for="email">Introduceti email:</label>
+            <input type="mail" id="email" required>
+
+            <br><br>
+
+            <label id="examTip" name="examType">Tipul de examen:</label>
+            <select>
+                <option>Test</option>
+                <option>Testare</option>
+                <option>Testare 1</option>
+            </select>
+
+            <br><br>
+            <label id="birtDate">Data nasterii:</label>
+            <input type="date" id="birtDate" name="nameDate">
+
+            <br><br>
+
+            <label id="phone">Numar de telefon:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Introduceți 10 cifre">
+            
+            <br><br>
+
+            <label id="address">Adresa</label>
+            <input type="address" name="address" >
+
+            <br><br>
+            <br><br>
+
+
+            <button type="submit">Submit</button>
+    
+            <br><br>
+
+            <input type="checkbox" id="subscribe">
+            <label for="subscribe">Subscribe</label>
+
+            <br><br>
+        </form>
+
+        </form>
+    </body>
+</html>

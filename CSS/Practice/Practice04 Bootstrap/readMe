@@ -1,0 +1,28 @@
+Scopul acestui exercițiu este de a crea o aplicație - magazin online folosind pentru stilizare și structurare numai elemente de bootstrap.
+
+Se da cod starter o pagina HTML ce are inclus bootstrap prin CDN și un director img ce contine imaginile afișate în cardurile cu produse.
+
+Se cere sa se reproduca aplicația din imagini folosind doar html și clase CSS din bootstrap.
+
+Se poate improviza pentru a îmbunătăți aspectul sau pentru a adauga informație suplimentară.
+
+Pagina este structurată în felul următor:
+
+Bară de Navigatie (<nav>):
+
+O bară de navigație Bootstrap cu un brand, buton de tip hamburger pentru dispozitive mobile, un meniu cu linkuri și un form pentru căutare.
+Utilizează clase Bootstrap pentru a aplica stiluri și funcționalități.
+
+Conținut Principal (<div class="container">):
+
+Un container Bootstrap care conține secțiunea principală a paginii.
+Lista de produse este organizată într-un grid Bootstrap cu coloane de lățime medie (col-md-4).
+
+
+Card-uri de Produse (<div class="card">):
+
+Fiecare produs este reprezentat de un card Bootstrap, conținând un titlu, o imagine și o descriere.
+Imaginile sunt specificate prin src și utilizate pentru a afișa produsele.
+
+Footer (<footer>):
+Un footer simplu Bootstrap cu un text de drepturi de autor.
